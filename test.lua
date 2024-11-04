@@ -1,5 +1,4 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Player01010111Cheater/Sigmna/refs/heads/main/Souce.lua"))()
-
 local Window = redzlib:MakeWindow({"Spider Team", "", ""})
 Window:AddMinimizeButton({
   Button = { Image = redzlib:GetIcon("Apple"), BackgroundTransparency = 0 },
@@ -75,5 +74,4 @@ local RainbowRPBioname = RP:AddToggle({
                 game:GetService("ReplicatedStorage").RE["1RPNam1eColo1r"]:FireServer("PickingRPNameColor",Color3.new(255 , 255 , 255))
             end
         end
-    end
-})
+    end})
